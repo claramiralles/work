@@ -224,7 +224,7 @@
 .project-img-cover.is-visible {
   -webkit-transform: translate(0px, 45px);
   transform: translate(0px, 45px);
-  padding-bottom: 50px;
+  padding-bottom: 0px;
 }
 
 .text-container-section {

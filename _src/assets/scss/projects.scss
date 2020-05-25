@@ -634,7 +634,9 @@ nav ul li a:hover:after {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    padding: 3% 0% 15% 0%;
+    padding: 3% 0% 3% 0%;
+    width: 100%;
+    height: 90px;
 }
 
 .proyect-link {
