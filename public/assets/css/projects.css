@@ -894,6 +894,31 @@ nav ul li a:hover:after {
   text-decoration: none;
 }
 
+.proyect__links__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 3% 0% 15% 0%;
+}
+
+.proyect-link {
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #242424;
+  text-decoration: underline;
+  font-family: 'Montserrat', sans-serif;
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .title-footer {
     font-size: 2.4rem;

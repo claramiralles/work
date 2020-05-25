@@ -628,3 +628,19 @@ nav ul li a:hover:after {
 .remove_underline{
     text-decoration: none;
 }
+
+.proyect__links__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3% 0% 15% 0%;
+}
+
+.proyect-link {
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #242424;
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+}
