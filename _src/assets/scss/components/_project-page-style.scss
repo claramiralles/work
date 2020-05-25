@@ -95,13 +95,14 @@
 }
 
 .project-img-cover.is-visible {
-    transform: translate(0px, -10px); 
+    transform: translate(0px, 45px);
+    padding-bottom: 50px;
 }
 
 .text-container-section {
     position: absolute;
     width: 50vw;
-    top: 20%;
+    top: -3%;
     left: 50%;
 }
 
