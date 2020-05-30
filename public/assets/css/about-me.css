@@ -56,6 +56,8 @@
   flex-shrink: 0;
   margin: 0px 20px 0px 20px;
   padding: 40px;
+  -webkit-transform: translate(0%, 30%);
+  transform: translate(0%, 30%);
   opacity: 0;
   -webkit-transition: opacity .5s .25s ease-out;
   transition: opacity .5s .25s ease-out;
@@ -799,8 +801,8 @@ nav ul li a:hover:after {
 }
 
 .image-profile-container.is-visible {
-  -webkit-transform: translate(0px, -130px);
-  transform: translate(0px, -130px);
+  -webkit-transform: translate(0%, -43%);
+  transform: translate(0%, -43%);
 }
 
 .image-profile {
@@ -827,11 +829,12 @@ nav ul li a:hover:after {
 .title-profile {
   font-size: 4rem;
   font-weight: 900;
-  padding-top: 113px;
+  padding-top: 75%;
+  padding-bottom: 40%;
 }
 
 .text-profile {
-  margin: 108% 5% -13% -2%;
+  margin: 70% 6% -12% 5%;
 }
 
 .links-profile-container {
@@ -843,7 +846,7 @@ nav ul li a:hover:after {
   -ms-flex-direction: column;
   flex-direction: column;
   margin-left: 55%;
-  padding-top: 50px;
+  padding-top: 30%;
 }
 
 .link-profile {
