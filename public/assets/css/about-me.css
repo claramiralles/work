@@ -799,12 +799,12 @@ nav ul li a:hover:after {
 }
 
 .image-profile-container.is-visible {
-  -webkit-transform: translate(-27%, 6%);
-  transform: translate(-27%, 6%);
+  -webkit-transform: translate(-14%, -38%);
+  transform: translate(-14%, -38%);
 }
 
 .image-profile {
-  width: 90vw;
+  width: 87vw;
 }
 
 .text-container {
@@ -817,7 +817,8 @@ nav ul li a:hover:after {
   transition: transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1), -webkit-transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1);
   -webkit-transition-delay: 200ms;
   transition-delay: 200ms;
-  min-width: 100vw;
+  width: 100vw;
+  height: 100vh;
 }
 
 .text-container.is-visible {
@@ -828,25 +829,24 @@ nav ul li a:hover:after {
 .title-profile {
   font-size: 4rem;
   font-weight: 900;
-  -webkit-transform: translate(320px, -230px);
-  transform: translate(320px, -230px);
   min-width: 100vw;
+  -webkit-transform: translate(95%, -585%);
+  transform: translate(95%, -585%);
 }
 
 .text-profile-first-paragraphs {
-  margin: 0% 0% 0% 0%;
+  margin: 0% 0% 0% 69%;
   font-size: 1rem;
-  -webkit-transform: translate(135%, 37%);
-  transform: translate(135%, 37%);
-  width: 41%;
+  -webkit-transform: translate(-23%, 123%);
+  transform: translate(-23%, 123%);
 }
 
 .text-profile-last-paragraphs {
-  margin: 0% 0% 0% 0%;
+  margin: 0% 0% 0% 18%;
   font-size: 1rem;
-  -webkit-transform: translate(5%, 95%);
-  transform: translate(5%, 95%);
-  width: 91%;
+  -webkit-transform: translate(-6%, 325%);
+  transform: translate(-6%, 325%);
+  width: 83%;
 }
 
 .links-profile-container {
