@@ -636,8 +636,6 @@ nav ul li a:hover:after {
   transition: -webkit-transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1);
   transition: transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1);
   transition: transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1), -webkit-transform 10s 0.25s cubic-bezier(0, 1, 0.3, 1);
-  margin-top: 30px;
-  margin-bottom: 30px;
 }
 
 .social-icon {
@@ -801,8 +799,8 @@ nav ul li a:hover:after {
 }
 
 .image-profile-container.is-visible {
-  -webkit-transform: translate(0%, -43%);
-  transform: translate(0%, -43%);
+  -webkit-transform: translate(0px, -25px);
+  transform: translate(0px, -25px);
 }
 
 .image-profile {
@@ -827,14 +825,12 @@ nav ul li a:hover:after {
 }
 
 .title-profile {
-  font-size: 4rem;
+  font-size: 6rem;
   font-weight: 900;
-  padding-top: 75%;
-  padding-bottom: 40%;
 }
 
 .text-profile {
-  margin: 70% 6% -12% 5%;
+  margin: 70% 0% 5% 65%;
 }
 
 .links-profile-container {
@@ -846,7 +842,6 @@ nav ul li a:hover:after {
   -ms-flex-direction: column;
   flex-direction: column;
   margin-left: 55%;
-  padding-top: 30%;
 }
 
 .link-profile {
@@ -966,9 +961,10 @@ nav ul li a:hover:after {
     padding-top: 35px;
   }
 
-  .text-profile {
-    margin: 12% 3% 14% 63%;
-    font-size: 1.4rem;
+  .title-profile {
+    margin-bottom: -13%;
+    font-size: 6.4rem;
+    padding-right: 10px;
   }
 
   .image-profile {
@@ -976,7 +972,7 @@ nav ul li a:hover:after {
   }
 
   .text-profile {
-    margin: -15% 3% 17% 63%;
+    margin: 55% 6% 5% 63%;
     font-size: 1.4rem;
   }
 
@@ -1138,10 +1134,9 @@ nav ul li a:hover:after {
   }
 
   .title-profile {
-    margin-bottom: 43%;
+    margin-bottom: -13%;
     font-size: 7.5rem;
     padding-right: 10px;
-    margin-top: 40px;
   }
 
   .image-profile {
@@ -1149,7 +1144,7 @@ nav ul li a:hover:after {
   }
 
   .text-profile {
-    margin: -15% 3% 17% 63%;
+    margin: 43% 11% 3% 58%;
     font-size: 1.4rem;
   }
 
@@ -1312,10 +1307,8 @@ nav ul li a:hover:after {
   }
 
   .title-profile {
-    margin-bottom: 43%;
-    font-size: 7.5rem;
-    padding-right: 10px;
-    margin-top: 40px;
+    font-size: 6.9rem;
+    padding-left: 30px;
   }
 
   .image-profile {
@@ -1323,8 +1316,8 @@ nav ul li a:hover:after {
   }
 
   .text-profile {
-    margin: -15% 3% 17% 63%;
-    font-size: 1.4rem;
+    margin: 17% 9% 5% 58%;
+    font-size: 1.5rem;
   }
 
   .links-profile-container {
