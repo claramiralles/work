@@ -819,6 +819,13 @@ nav ul li a:hover:after {
   transform-box: fill-box;
 }
 
+@media (min-width: 320px) and (max-width: 375px) {
+  .footer.is-visible {
+    opacity: 1;
+    margin-top: 35%;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .title-footer {
     font-size: 2.4rem;

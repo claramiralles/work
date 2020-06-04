@@ -855,6 +855,11 @@ nav ul li a:hover:after {
 .link-profile:hover {
   text-decoration: line-through;
 }/* Media Queries for IPAD *//* Media Queries for Desktop */@media (min-width: 320px) and (max-width: 375px) {
+  .footer.is-visible {
+    opacity: 1;
+    margin-top: 35%;
+  }
+
   .title-profile {
     font-size: 4rem;
     font-weight: 900;

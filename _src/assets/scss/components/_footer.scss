@@ -61,6 +61,14 @@
     flex-shrink: 0;
 }
 
+@media (min-width: 320px) and (max-width: 375px) {
+
+    .footer.is-visible {
+        opacity: 1;
+        margin-top: 35%;
+    }
+
+}
 /* Media Queries for IPAD */
 
 @media (min-width: 768px) and (max-width: 1024px) {
