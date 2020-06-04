@@ -301,15 +301,17 @@ nav ul li a:hover:after {
     .title-profile {
         font-size: 4rem;
         font-weight: 900;
-        margin-top: 60%;
+        margin-top: 72%;
     }
 
     .text-profile {
         margin: 26% 0% 5% 65%;
     }
 
+    .image-profile-container.is-visible {
+        transform: translate(-16px, 24px);
+    }
 }
-
 /* Media Queries for IPAD */
 
 @media (min-width: 768px) and (max-width: 1024px) {

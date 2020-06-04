@@ -820,9 +820,20 @@ nav ul li a:hover:after {
 }
 
 @media (min-width: 320px) and (max-width: 375px) {
+  .footer {
+    padding: 40px 0px;
+  }
+
+  .title-footer,.footer-credits-text,.mail-footer,.container-footer {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
   .footer.is-visible {
     opacity: 1;
     margin-top: 35%;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
